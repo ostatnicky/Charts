@@ -241,7 +241,7 @@ open class XAxisRenderer: AxisRendererBase
                 
                 drawLabel(context: context,
                           formattedLabel: label,
-                          x: position.x,
+                          x: position.x + xAxis.captionXOffset,
                           y: pos,
                           attributes: labelAttrs,
                           constrainedToSize: labelMaxSize,

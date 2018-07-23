@@ -61,6 +61,11 @@ open class XAxis: AxisBase
     /// **default**: 1.0
     @objc open var wordWrapWidthPercent: CGFloat = 1.0
     
+    /// offset of caption in x direction
+    ///
+    /// **default**: 0.0
+    @objc open var captionXOffset: CGFloat = 0
+    
     public override init()
     {
         super.init()
